@@ -52,11 +52,16 @@ name = "Linkedin"
 icon = "linkedin"
 url = "https://www.linkedin.com/in/rafa-leyva-738228140/"
 
-
 [[params.social]]
 name = "Stack Overflow"
-icon = "StackOverflow"
-url = "https://www.linkedin.com/in/rafa-leyva-738228140/"
+icon = "layers"
+url = "https://stackoverflow.com/users/3795926/rafaelleru"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/rafaelleru"
+
 
 # Enable tags.
 [taxonomies]
