@@ -26,6 +26,11 @@ url = "/blog"
 weight = 2
 
 [[menu.main]]
+name = "Wiki"
+url = "/wiki"
+weight = 2
+
+[[menu.main]]
 name = "About"
 url = "/about"
 weight = 3
