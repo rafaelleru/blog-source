@@ -10,5 +10,11 @@ draft = false
 `ls` returns 4K as size for folders. To get the total size for a folder and his content run:
 
 ```
+du -h --max-depth=0 <directory>
+```
+
+If you want to obtain the size of the content inside the directory: 
+
+```
 du -h --max-depth=1 <directory>
 ```
