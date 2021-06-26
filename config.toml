@@ -8,10 +8,25 @@ pygmentsstyle = "solarized-dark"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
+
 [params]
   # Content types which are included in home page recent posts list.
   #mainSections = ["posts"]
 
+  subtitle =  "Python backend developer. Vim nerd."
   mode = "light" 
 
 # Main menu which appears below site header.

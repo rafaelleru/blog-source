@@ -9,7 +9,7 @@ The Primeagean has a great [video](https://www.youtube.com/watch?v=IoyW8XYGqjM) 
 things you can get by using QuickFix lists and local QuickFix lists. After watching it I quickly grab the following 
 code and paste it to my [config](https://github.com/rafaelleru/dotfiles/tree/master/config/nvim).
 
-```
+```viml
 let g:the_primeagen_qf_l = 0
 let g:the_primeagen_qf_g = 0
 
@@ -51,7 +51,7 @@ idea of setting the Locallist manually each time. To avoid that nvim provides th
 Using `LspDiagnosticsChanged` we can set an autocomand that will populate the Locallist automatically per file.
 The code is:
 
-```
+```viml
 augroup locallist
     autocmd!
     " Populate locallist with lsp diagnostics automatically 
@@ -71,7 +71,7 @@ will not be updated.  To fix that behavior we will use again autocomands!
 We can set an autocomand that will be called each time a `quickfix` window will be created and update there our
 variables. 
 
-```
+```viml
 augroup fixlist
     autocmd!
     autocmd BufWinEnter quickfix call SetQFControlVariable()
@@ -86,7 +86,7 @@ The functions that control now  `g:the_primeagen_qf_l` and `g:the_primeagen_qf_g
 and `UnsetQFControlVariable()`. Those functions check the current vim window type and set our control variables
 as needed.  
 
-```
+```viml
 fun! SetQFControlVariable()
     if getwininfo(win_getid())[0]['loclist'] == 1
         let g:the_primeagen_qf_l = 1
@@ -107,7 +107,7 @@ endfun
 Now the `ToggleQFList` do not need to control the window only call `cclose`, `ccopen`, `lclose` or `lopen`
 when we call it, so finally `ToggleQFList` looks like this:
 
-```
+```viml
 fun! ToggleQFList(global)
     if a:global
         if g:the_primeagen_qf_g == 1
