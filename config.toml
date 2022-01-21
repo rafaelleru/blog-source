@@ -76,3 +76,7 @@ url = "https://stackoverflow.com/users/3795926/rafaelleru"
 name = "Twitter"
 icon = "twitter"
 url = "https://twitter.com/rafaelleru"
+
+# Enable tags.
+[taxonomies]
+   tag = "tags"
