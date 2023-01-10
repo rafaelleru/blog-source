@@ -1,5 +1,6 @@
 +++
-title = "Seleccionando de una manera mas inteligente en emacs"
+title = "01 - Seleccionando de una manera mas inteligente en emacs"
+date = 2015-01-01
 tags = ["emacs"]
 draft = false
 +++

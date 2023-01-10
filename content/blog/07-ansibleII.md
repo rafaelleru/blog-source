@@ -1,5 +1,5 @@
 +++
-title = "Managing dotfiles with Ansible (II)"
+title = "07 - Managing dotfiles with Ansible (II)"
 date = 2022-01-26
 tags = ["dotfiles","linux","automation","ansible"]
 draft = false

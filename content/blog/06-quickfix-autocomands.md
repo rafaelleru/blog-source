@@ -1,5 +1,5 @@
 +++
-title = "Toggle vim QuickFix list, the right way"
+title = "06 - Toggle vim QuickFix list, the right way"
 date = 2021-06-26
 tags = ["vim","quickfix-list"]
 draft = false

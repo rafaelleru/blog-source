@@ -1,5 +1,6 @@
 +++
-title = "Mantener una lista de articulos para leer con org-mode"
+title = "02 - Mantener una lista de articulos para leer con org-mode"
+date = 2016-01-20
 tags = ["emacs,", "orgmode"]
 draft = false
 +++

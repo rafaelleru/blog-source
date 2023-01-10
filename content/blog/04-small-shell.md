@@ -1,5 +1,5 @@
 +++
-title = "Small-shell con eshell"
+title = "04 - Small-shell con eshell"
 date = 2017-05-15
 tags = ["emacs,", "shell"]
 draft = false

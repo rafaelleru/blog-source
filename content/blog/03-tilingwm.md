@@ -1,3 +1,10 @@
++++
+title = "03 - Por qué todo el mundo debería probar un twm"
+date = 2017-05-12
+tags = ["dwm,", "i3wm,", "twm"]
+draft = false
++++
+
 Varias veces me habían propuesto usar alguno de los varios window
 manager que hay disponibles para linux. Tengo que decir que al
 principio no le veía sentido, ¿Por que usar algo que en apariencia es
@@ -22,7 +29,7 @@ sobre la forma en la que trabajamos ya que en todo momento sabemos
 donde estan nuestras aplicaciones y nos ahorramos escenas como las de
 el siguiente pantallazo.
 
-![img](/Captura.png)
+{{<figure src="img/Captura.png">}}
 
 En segundo lugar los atajos de teclado, son completamente intuitivos y
 en poco mas de 2-3 horas podemos obtener una gran velocidad a la hora
@@ -55,11 +62,10 @@ normalmente es para mejorar algo que ya hay o para hacer algo nuevo,
 con lo cual no deberíamos conformarnos nunca con algo que ya está ahí,
 ya que podemos hacer que todo en nuestro pc funcione como deseamos, y
 no de otra manera que alguien a pensado, por que ese funcionamiento
-por defecto será el que mas se adapte a el. 
+por defecto será el que mas se adapte a el.
 
 Por todo esto os animo a probar i3wm (el mas facil de configurar) o
 dwm, el twm que actualmente uso y ver si de verdad merece la
 pena. Para mi sin duda lo merece por que cuando estoy en el pc, quiero
 ser lo mas eficiente posible haciendo cosas y que el pc las haga
 exactamente como yo quiero.Te
-
