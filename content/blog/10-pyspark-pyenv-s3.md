@@ -1,5 +1,5 @@
 +++
-title = "09 - Connect pyspark to local s3 like storage"
+title = "10 - Connect pyspark to local s3 like storage"
 date = 2023-01-11
 tags = ["pyenv","python","spark","linux"]
 draft = true

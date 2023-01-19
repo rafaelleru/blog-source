@@ -1,8 +1,8 @@
 +++
-title = "10 - Creating an incremental copy of iphone photos with rsync"
+title = "11 - Creating an incremental copy of iphone photos with rsync"
 date = 2023-01-13
 author = "Rafael Leyva Ruiz"
-draft = false
+draft = true
 tags = ["iphone","linux","rsync","cli","terminal"]
 +++
 
