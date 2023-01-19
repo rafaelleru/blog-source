@@ -1,5 +1,5 @@
 +++
-title = "08 - Use custom python paths on neovim lsp client"
+title = "09 - Use custom python paths on neovim lsp client"
 date = 2022-09-14
 tags = ["python","linux","airflow","nvim", "vim"]
 draft = false
