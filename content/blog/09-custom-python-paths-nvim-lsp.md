@@ -5,7 +5,7 @@ tags = ["python","linux","airflow","nvim", "vim"]
 draft = false
 +++
 
-Recently we started to use airflow in my current company, and I found an issue, LSP was not recognisin our 
+Recently we started to use airflow in my current company, and I found an issue, LSP was not recognising our 
 custom plugins and DAGS inside of the `airflow` folder. This was caused because airflow is also a package that
 is installed in my virtualenv, so jedi was not able to discover definitions for example. 
 
